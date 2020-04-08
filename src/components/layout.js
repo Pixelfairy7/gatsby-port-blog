@@ -9,12 +9,15 @@ import React from "react"
 import PropTypes from "prop-types"
 import layoutStyles from "./layout.module.css"
 import SideBar from "./sidebar/sidebar"
+import Heading from "../components/heading/heading"
 
 const Layout = ({ children }) => {
   return (
     <div className={layoutStyles.container}>
       <SideBar />
-      <main>{children}</main>
+      <div className={layoutStyles.content}>
+        <main className={layoutStyles.mainContainer}>{children}</main>
+      </div>
     </div>
   )
 }

@@ -6,21 +6,29 @@ const SideBar = () => (
   <nav className={SideBarStyles.nav}>
     <div>
       <Link className={SideBarStyles.logo} to="/">
-        &#123;<span className={SideBarStyles.kAccent}>k</span>&#125;
+        &#123;<span className={SideBarStyles.kAccent}>Erika Conley</span>&#125;
       </Link>
     </div>
     <ul className={SideBarStyles.navList}>
       <li>
-        <Link to="/about">About</Link>
+        <Link className={SideBarStyles.link} to="/about">
+          About
+        </Link>
       </li>
       <li>
-        <Link to="/skills">Skills</Link>
+        <Link className={SideBarStyles.link} to="/skills">
+          Skills
+        </Link>
       </li>
       <li>
-        <Link to="/projects">Projects</Link>
+        <Link className={SideBarStyles.link} to="/projects">
+          Projects
+        </Link>
       </li>
       <li>
-        <Link to="/blog">Blog</Link>
+        <Link className={SideBarStyles.link} to="/blog">
+          Blog
+        </Link>
       </li>
     </ul>
   </nav>
