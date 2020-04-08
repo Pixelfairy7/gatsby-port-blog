@@ -11,22 +11,38 @@ const SideBar = () => (
     </div>
     <ul className={SideBarStyles.navList}>
       <li>
-        <Link className={SideBarStyles.link} to="/about">
+        <Link
+          className={SideBarStyles.link}
+          activeClassName={SideBarStyles.active}
+          to="/about"
+        >
           About
         </Link>
       </li>
       <li>
-        <Link className={SideBarStyles.link} to="/skills">
+        <Link
+          className={SideBarStyles.link}
+          activeClassName={SideBarStyles.active}
+          to="/skills"
+        >
           Skills
         </Link>
       </li>
       <li>
-        <Link className={SideBarStyles.link} to="/projects">
+        <Link
+          className={SideBarStyles.link}
+          activeClassName={SideBarStyles.active}
+          to="/projects"
+        >
           Projects
         </Link>
       </li>
       <li>
-        <Link className={SideBarStyles.link} to="/blog">
+        <Link
+          className={SideBarStyles.link}
+          activeClassName={SideBarStyles.active}
+          to="/blog"
+        >
           Blog
         </Link>
       </li>

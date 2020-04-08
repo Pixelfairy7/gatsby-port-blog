@@ -6,7 +6,7 @@
   width: 30vw;
   min-height: 100vh;
   padding-top: 10%;
-  background-color: #dfeaeb;
+  background-color: #efaeea;
   font-family: Roboto;
   font-weight: 400;
   font-size: 2.4em;
@@ -15,7 +15,7 @@
 .logo {
   text-decoration: none;
   color: #707070;
-  font-size: 1.4em;
+  font-size: 2rem;
   font-family: Roboto;
   padding-left: 20px;
 }
@@ -34,9 +34,14 @@
 }
 
 .link {
-  color: #707070;
+  /* color: #707070; */
+  color: #fff;
   text-decoration: none;
 }
 .link:hover {
-  color: #efaeea;
+  color: #f51aa4;
+}
+
+.active {
+  border-bottom: 3px solid #1aedff;
 }
