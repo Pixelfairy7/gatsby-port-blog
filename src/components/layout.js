@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
     <div className={layoutStyles.container}>
       <SideBar />
       <div className={layoutStyles.content}>
-        <main className={layoutStyles.mainContainer}>{children}</main>
+        <main style={{ margin: `3rem auto`, maxWidth: 900 }}>{children}</main>
       </div>
     </div>
   )

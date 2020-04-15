@@ -1,0 +1,25 @@
+// libraries
+import React from "react"
+import { Link } from "gatsby"
+import SEO from "../components/seo"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+//  import components
+import Layout from "../components/layout"
+import Heading from "../components/heading/heading"
+
+const ContactPage = () => (
+  <Layout>
+    <SEO title="Contact" />
+    <Heading header="Contact" />
+    <div className="content">
+      <p className="copy">
+        If you'd like to contact me please reach out to me to say 'Hi' or see
+        what I'm up to, feel free to come visit any of my social profiles or
+        drop me an email.
+      </p>
+      <FontAwesomeIcon icon="coffee" size="5x" />
+    </div>
+  </Layout>
+)
+
+export default ContactPage

@@ -1,0 +1,25 @@
+.content {
+  color: #707070;
+  font-family: Roboto;
+  /* text-align: center; */
+  /* padding-left: 40px; */
+  width: 70%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+/* styling for headers */
+.hl-1 {
+  margin-top: 5%;
+  font-size: 1.9rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* styling for copy */
+.copy {
+  font-size: 1.2rem;
+  padding: 10px 0;
+  margin-top: 13px;
+  font-weight: 100;
+}

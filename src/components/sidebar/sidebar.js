@@ -6,7 +6,7 @@ const SideBar = () => (
   <nav className={SideBarStyles.nav}>
     <div>
       <Link className={SideBarStyles.logo} to="/">
-        &#123;<span className={SideBarStyles.kAccent}>Erika Conley</span>&#125;
+        &#123;<span className={SideBarStyles.kAccent}>EC</span>&#125;
       </Link>
     </div>
     <ul className={SideBarStyles.navList}>
@@ -44,6 +44,15 @@ const SideBar = () => (
           to="/blog"
         >
           Blog
+        </Link>
+      </li>
+      <li>
+        <Link
+          className={SideBarStyles.link}
+          activeClassName={SideBarStyles.active}
+          to="/contact"
+        >
+          Contact
         </Link>
       </li>
     </ul>
