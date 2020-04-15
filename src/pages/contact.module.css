@@ -1,0 +1,9 @@
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  margin: 20px;
+  color: #23273a;
+}

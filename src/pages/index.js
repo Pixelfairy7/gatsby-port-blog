@@ -9,10 +9,28 @@ import "../styles/global.css"
 
 // font awesome
 import { library } from "@fortawesome/fontawesome-svg-core"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCoffee } from "@fortawesome/free-solid-svg-icons"
+import { fab } from "@fortawesome/free-brands-svg-icons"
 import { fas } from "@fortawesome/free-solid-svg-icons"
-library.add(fas, faCoffee)
+import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons"
+import {
+  faTwitter,
+  faGithub,
+  faInstagram,
+  faCodepen,
+  faLinkedin,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons"
+
+library.add(
+  fas,
+  fab,
+  faTwitter,
+  faGithub,
+  faInstagram,
+  faCodepen,
+  faLinkedin,
+  faYoutube
+)
 
 const IndexPage = () => (
   <Layout>
