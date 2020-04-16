@@ -1,8 +1,9 @@
 import { Link } from "gatsby"
 import React from "react"
+import SocialMedia from "../social/socialMedia"
 import SideBarStyles from "./sidebar.module.css"
 
-const SideBar = () => (
+const SideBar = props => (
   <nav className={SideBarStyles.nav}>
     <div>
       <Link className={SideBarStyles.logo} to="/">
@@ -60,6 +61,7 @@ const SideBar = () => (
         </Link>
       </li>
     </ul>
+    <SocialMedia />
   </nav>
 )
 
