@@ -5,5 +5,11 @@
 
 .icons {
   margin: 20px;
-  color: #23273a;
+  color: #aa8fd8;
+  font-size: 1.5rem;
+}
+
+.icons:hover {
+  color: #1aedff;
+  transform: scale(1.3);
 }

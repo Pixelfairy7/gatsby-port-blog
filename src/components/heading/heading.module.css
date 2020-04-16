@@ -5,8 +5,8 @@
 .header {
   font-family: Roboto;
   font-weight: 400;
-  font-size: 1.5rem;
-  color: #707070;
+  font-size: 2rem;
+  color: #aa8fd8;
   margin-top: 5%;
 }
 .header::after {
@@ -20,4 +20,8 @@
 
 .accent {
   color: #f51aa4;
+}
+
+.accent-blue {
+  color: #1aedff;
 }

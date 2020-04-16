@@ -13,12 +13,12 @@ import Heading from "../components/heading/heading"
 
 const Layout = ({ children }) => {
   return (
-    <div className={layoutStyles.container}>
+    <section className={layoutStyles.container}>
       <SideBar />
       <div className={layoutStyles.content}>
         <main style={{ margin: `3rem auto`, maxWidth: 900 }}>{children}</main>
       </div>
-    </div>
+    </section>
   )
 }
 

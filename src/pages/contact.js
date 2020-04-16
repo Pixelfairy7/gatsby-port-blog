@@ -16,9 +16,9 @@ const ContactPage = () => (
     <Heading header="Contact" />
     <div className="content">
       <p className="copy">
-        If you'd like to contact me please reach out to me to say 'Hi' or see
-        what I'm up to, feel free to come visit any of my social profiles or
-        drop me an email.
+        If you'd like to contact me to say <span className="accent">'Hi'</span>{" "}
+        or just see what I'm up to, feel free to come visit any of my social
+        profiles or drop me an email.
       </p>
       <div className={ContactStyles.social}>
         <FontAwesomeIcon
@@ -40,6 +40,10 @@ const ContactPage = () => (
         />
         <FontAwesomeIcon
           icon={["fab", "youtube"]}
+          className={ContactStyles.icons}
+        />
+        <FontAwesomeIcon
+          icon={["fab", "twitch"]}
           className={ContactStyles.icons}
         />
         <FontAwesomeIcon

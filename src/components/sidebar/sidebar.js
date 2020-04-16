@@ -6,7 +6,11 @@ const SideBar = () => (
   <nav className={SideBarStyles.nav}>
     <div>
       <Link className={SideBarStyles.logo} to="/">
-        &#123;<span className={SideBarStyles.kAccent}>EC</span>&#125;
+        <h1 className="hl-1 blue-accent">
+          &#123;<span className="accent">Erika Conley</span>{" "}
+          <span className="blue-accent">|</span>{" "}
+          <span className="lavender">Front End Developer</span>&#125;
+        </h1>
       </Link>
     </div>
     <ul className={SideBarStyles.navList}>

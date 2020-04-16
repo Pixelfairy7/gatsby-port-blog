@@ -36,7 +36,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="content">
-      <h1 className="hl-1">Erika Conley Front End Developer</h1>
+      {/* <h1 className="hl-1">
+        <span className="accent">Erika Conley</span> | Front End Developer
+      </h1> */}
       <Heading header="Hello" />
       <p className="copy">
         Hey y’all! I’m Erika with a{" "}

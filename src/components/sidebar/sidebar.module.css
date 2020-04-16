@@ -41,7 +41,7 @@
 .logo {
   text-decoration: none;
   /* color: #707070; */
-  color: #1aedff;
+  color: #aa8fd8;
   font-size: 2rem;
   font-family: Roboto;
 }
@@ -63,6 +63,7 @@
   /* color: #707070; */
   color: #fff;
   text-decoration: none;
+  padding-bottom: 10px;
 }
 .link:hover {
   color: #f51aa4;

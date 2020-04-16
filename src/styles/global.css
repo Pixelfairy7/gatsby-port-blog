@@ -3,7 +3,7 @@
   font-family: Roboto;
   /* text-align: center; */
   /* padding-left: 40px; */
-  width: 70%;
+  width: 70vw;
   margin: auto;
   margin-top: 10%;
 }
@@ -14,6 +14,13 @@
   font-size: 1.9rem;
   font-weight: 300;
   text-align: center;
+}
+.hl-2 {
+  margin-top: 5%;
+  /* margin-bottom: 3%; */
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: left;
 }
 
 /* styling for copy */
@@ -27,4 +34,10 @@
 /* colors */
 .accent {
   color: #f51aa4;
+}
+.blue-accent {
+  color: #1aedff;
+}
+.lavender {
+  color: #aa8fd8;
 }
