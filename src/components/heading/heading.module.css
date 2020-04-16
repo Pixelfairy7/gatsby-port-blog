@@ -1,22 +1,27 @@
 .container {
   text-align: center;
+  width: 100%;
 }
 .header {
   font-family: Roboto;
-  font-weight: 700;
-  font-size: 10rem;
-  color: #707070;
-  margin-top: 10%;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #aa8fd8;
+  margin-top: 5%;
 }
 .header::after {
   display: block;
-  content: " ";
+  content: "";
   border: 2px solid #efaeea;
-  width: 300px;
+  width: 200px;
   margin: auto;
   margin-top: 30px;
 }
 
 .accent {
   color: #f51aa4;
+}
+
+.accent-blue {
+  color: #1aedff;
 }
