@@ -10,7 +10,6 @@ const AboutPage = () => (
     <SEO title="About" />
     <Heading header="About" />
     <section className="content">
-      <Image />
       <h2 className="hl-2">My Interests</h2>
       <p className="copy">
         Doggo ipsum borkf super chub waggy wags length boy fat boi you are doing

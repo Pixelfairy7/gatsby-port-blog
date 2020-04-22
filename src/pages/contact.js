@@ -17,7 +17,7 @@ const ContactPage = () => (
       <p className="copy">
         If you'd like to contact me to say <span className="accent">'Hi'</span>{" "}
         or just see what I'm up to, feel free to come visit any of my social
-        profiles or drop me an email.
+        profiles.
       </p>
     </div>
   </Layout>
