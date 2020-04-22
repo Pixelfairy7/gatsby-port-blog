@@ -3,8 +3,6 @@ import React from "react"
 import { Link } from "gatsby"
 import SEO from "../components/seo"
 
-import ContactStyles from "./contact.module.css"
-
 //  import components
 import Layout from "../components/layout"
 import Heading from "../components/heading/heading"
