@@ -7,30 +7,30 @@ import Heading from "../components/heading/heading"
 import IndexPageStyles from "./index.module.css"
 import "../styles/global.css"
 
-// font awesome
-import { library } from "@fortawesome/fontawesome-svg-core"
-import { fab } from "@fortawesome/free-brands-svg-icons"
-import { fas } from "@fortawesome/free-solid-svg-icons"
-import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons"
-import {
-  faTwitter,
-  faGithub,
-  faInstagram,
-  faCodepen,
-  faLinkedin,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons"
+// // font awesome
+// import { library } from "@fortawesome/fontawesome-svg-core"
+// import { fab } from "@fortawesome/free-brands-svg-icons"
+// import { fas } from "@fortawesome/free-solid-svg-icons"
+// import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons"
+// import {
+//   faTwitter,
+//   faGithub,
+//   faInstagram,
+//   faCodepen,
+//   faLinkedin,
+//   faYoutube,
+// } from "@fortawesome/free-brands-svg-icons"
 
-library.add(
-  fas,
-  fab,
-  faTwitter,
-  faGithub,
-  faInstagram,
-  faCodepen,
-  faLinkedin,
-  faYoutube
-)
+// library.add(
+//   fas,
+//   fab,
+//   faTwitter,
+//   faGithub,
+//   faInstagram,
+//   faCodepen,
+//   faLinkedin,
+//   faYoutube
+// )
 
 const IndexPage = () => (
   <Layout>

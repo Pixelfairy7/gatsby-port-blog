@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import SocialMedia from "../social/socialMedia"
+// import SocialMedia from "../social/socialMedia"
 import HeaderStyles from "./Header.module.css"
 
 const Header = props => (
@@ -61,7 +61,7 @@ const Header = props => (
         </Link>
       </li>
     </ul>
-    <SocialMedia />
+    {/* <SocialMedia /> */}
   </nav>
 )
 
