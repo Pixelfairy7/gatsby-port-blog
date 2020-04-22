@@ -1,11 +1,12 @@
 import { Link } from "gatsby"
 import React from "react"
-import SideBarStyles from "./sidebar.module.css"
+import SocialMedia from "../social/socialMedia"
+import HeaderStyles from "./Header.module.css"
 
-const SideBar = () => (
-  <nav className={SideBarStyles.nav}>
+const Header = props => (
+  <nav className={HeaderStyles.nav}>
     <div>
-      <Link className={SideBarStyles.logo} to="/">
+      <Link className={HeaderStyles.logo} to="/">
         <h1 className="hl-1 blue-accent">
           &#123;<span className="accent">Erika Conley</span>{" "}
           <span className="blue-accent">|</span>{" "}
@@ -13,11 +14,11 @@ const SideBar = () => (
         </h1>
       </Link>
     </div>
-    <ul className={SideBarStyles.navList}>
+    <ul className={HeaderStyles.navList}>
       <li>
         <Link
-          className={SideBarStyles.link}
-          activeClassName={SideBarStyles.active}
+          className={HeaderStyles.link}
+          activeClassName={HeaderStyles.active}
           to="/about"
         >
           About
@@ -25,8 +26,8 @@ const SideBar = () => (
       </li>
       <li>
         <Link
-          className={SideBarStyles.link}
-          activeClassName={SideBarStyles.active}
+          className={HeaderStyles.link}
+          activeClassName={HeaderStyles.active}
           to="/skills"
         >
           Skills
@@ -34,8 +35,8 @@ const SideBar = () => (
       </li>
       <li>
         <Link
-          className={SideBarStyles.link}
-          activeClassName={SideBarStyles.active}
+          className={HeaderStyles.link}
+          activeClassName={HeaderStyles.active}
           to="/projects"
         >
           Projects
@@ -43,8 +44,8 @@ const SideBar = () => (
       </li>
       <li>
         <Link
-          className={SideBarStyles.link}
-          activeClassName={SideBarStyles.active}
+          className={HeaderStyles.link}
+          activeClassName={HeaderStyles.active}
           to="/blog"
         >
           Blog
@@ -52,15 +53,16 @@ const SideBar = () => (
       </li>
       <li>
         <Link
-          className={SideBarStyles.link}
-          activeClassName={SideBarStyles.active}
+          className={HeaderStyles.link}
+          activeClassName={HeaderStyles.active}
           to="/contact"
         >
           Contact
         </Link>
       </li>
     </ul>
+    <SocialMedia />
   </nav>
 )
 
-export default SideBar
+export default Header

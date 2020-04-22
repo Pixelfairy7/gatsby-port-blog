@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Heading from "../components/heading/heading"
+import Image from "../components/image"
 
 const AboutPage = () => (
   <Layout>

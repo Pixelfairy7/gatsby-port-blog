@@ -8,13 +8,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import layoutStyles from "./layout.module.css"
-import SideBar from "./sidebar/sidebar"
+import Header from "./header/Header"
 import Heading from "../components/heading/heading"
 
 const Layout = ({ children }) => {
   return (
     <section className={layoutStyles.container}>
-      <SideBar />
+      <Header />
       <div className={layoutStyles.content}>
         <main style={{ margin: `3rem auto`, maxWidth: 900 }}>{children}</main>
       </div>
